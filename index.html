@@ -58,6 +58,13 @@
 /* Iconografia vetorial auto-contida para ferramentas de segurança. */
 .skill-category .skill-logo svg{display:block;filter:drop-shadow(0 2px 9px rgba(93,224,205,.16))}
 
+
+/* Foto do grupo no projeto Midea × UNIFEI */
+.project-photo{height:215px;position:relative;background:#111c2c}
+.project-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center center}
+.project-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,13,25,.35),transparent 48%);pointer-events:none}
+.project-photo .art-corner{color:#fff;text-shadow:0 1px 9px rgba(0,0,0,.75)}
+@media(max-width:590px){.project-photo{height:195px}}
 </style>
   
 </head>
@@ -147,7 +154,7 @@
           <div class="project-body"><span class="project-number">PROJETO 01 · TCC</span><h3>Detecção de anomalias em sistemas industriais</h3><p>Pesquisa com o HAI Dataset para avaliar técnicas de Machine Learning na identificação de comportamentos anômalos e possíveis ataques em sistemas de controle industrial.</p><div class="stack"><span>Python</span><span>Random Forest</span><span>Scikit-learn</span><span>HAI Dataset</span></div></div>
         </article>
         <article class="project-card reveal">
-          <div class="project-art art-signal" aria-hidden="true"><div class="art-grid"></div><svg viewBox="0 0 400 170" fill="none"><path d="M0 85 C15 85 17 48 32 48 S50 130 66 130 S86 28 100 28 S122 141 137 141 S156 54 174 54 S192 109 209 109 S226 47 244 47 S264 118 280 118 S300 66 317 66 S339 94 355 94 S377 69 400 69" stroke="#8db6ff" stroke-width="3"/><path d="M0 100L400 100" stroke="#b1c7df" stroke-width="1" stroke-dasharray="5 5" opacity=".35"/></svg><span class="art-corner">SINAIS / IA</span></div>
+          <div class="project-art project-photo"><img src="assets/midea-equipe.webp" alt="Foto da equipe do projeto Midea × UNIFEI reunida na Midea" width="450" height="204" loading="lazy" decoding="async"><span class="art-corner">MIDEA × UNIFEI</span></div>
           <div class="project-body"><span class="project-number">PROJETO 02 · MIDEA × UNIFEI</span><h3>Análise de sinais e áudio com IA</h3><p>Projeto acadêmico aplicado à análise de ruídos de máquinas de lavar, utilizando extração de características acústicas, espectrogramas e técnicas de análise de dados.</p><div class="stack"><span>Python</span><span>FFT</span><span>MFCC</span><span>Processamento de sinais</span></div></div>
         </article>
         <article class="project-card reveal">
