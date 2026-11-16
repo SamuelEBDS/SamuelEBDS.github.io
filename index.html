@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a101d">
+  <meta name="description" content="Portfólio de Samuel Eleotério: Engenharia de Computação, Inteligência Artificial, Machine Learning e desenvolvimento de software.">
+  <meta property="og:title" content="Samuel Eleotério | Engenharia de Computação & IA">
+  <meta property="og:description" content="Projetos, habilidades e experiências em inteligência artificial, dados e tecnologia.">
+  <meta property="og:type" content="website">
+  <title>Samuel Eleotério | Engenharia de Computação & IA</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+:root{color-scheme:dark;--bg:#080e19;--surface:#101a2b;--surface2:#111f30;--line:rgba(165,198,231,.13);--text:#ebf3fb;--muted:#9aacc3;--accent:#64e3c8;--blue:#7ca7ff;--max:1150px;--radius:20px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:102px}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 'DM Sans',sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:5px}::selection{color:#06111d;background:var(--accent)}.container{max-width:var(--max);margin-inline:auto;padding-inline:28px}.ambient{position:absolute;pointer-events:none;z-index:-1;filter:blur(75px);opacity:.22;border-radius:50%}.ambient-one{width:470px;height:470px;background:#076e79;top:80px;right:-200px}.ambient-two{width:370px;height:370px;background:#284b95;top:960px;left:-220px}.skip-link{position:fixed;top:-60px;left:15px;z-index:50;background:var(--accent);color:#03181a;padding:12px 18px;border-radius:8px}.skip-link:focus{top:12px}
+.site-header{position:sticky;top:0;z-index:20;background:rgba(8,14,25,.82);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid rgba(183,208,239,.09)}.navigation{height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:15px;min-width:max-content}.brand-mark{font-family:Outfit,sans-serif;font-weight:800;font-size:25px;letter-spacing:-1.5px;color:#fff}.brand-dot,.punctuation{color:var(--accent)}.brand-name{font-size:14px;font-weight:700;letter-spacing:.01em}.nav-links{display:flex;align-items:center;gap:27px}.nav-links a{font-size:13px;font-weight:700;color:#afbdd0;transition:color .2s}.nav-links a:hover{color:var(--accent)}.nav-links .nav-contact{color:#0b1d22;background:var(--accent);padding:10px 17px;border-radius:9px}.nav-links .nav-contact:hover{color:#0b1d22;background:#8af3dd}.menu-toggle{display:none}
+.hero{min-height:710px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:60px;padding-top:78px;padding-bottom:95px}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:#a8e7dc;font-size:12px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;margin:0 0 28px}.pulse-dot,.tiny-dot{display:inline-block;width:8px;height:8px;background:var(--accent);border-radius:50%;box-shadow:0 0 0 4px rgba(100,227,200,.14)}.hero h1{font-family:Outfit,sans-serif;font-size:clamp(45px,4.55vw,70px);line-height:1.09;letter-spacing:-2.8px;font-weight:700;max-width:720px;margin:0 0 26px}.gradient-text{background:linear-gradient(110deg,#68efcc 7%,#8aaeff 95%);background-clip:text;-webkit-background-clip:text;color:transparent}.hero-intro{font-size:17px;line-height:1.8;color:#c3d1e1;max-width:595px;margin:0 0 12px}.hero-intro strong{color:#f0f9ff}.hero-sub{color:var(--muted);font-size:15px;margin:0 0 31px;max-width:550px}.hero-buttons,.contact-buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:17px;padding:13px 22px;border-radius:10px;font-size:14px;font-weight:800;min-height:47px;transition:transform .2s,background .2s,border-color .2s}.btn:hover{transform:translateY(-3px)}.btn-primary{background:var(--accent);color:#06191d;box-shadow:0 10px 30px rgba(68,212,184,.12)}.btn-primary:hover{background:#a4f6e7}.btn-secondary{border:1px solid rgba(171,203,231,.24);color:#e6f0fb;background:rgba(170,190,218,.045)}.btn-secondary:hover{border-color:#66dfcb;background:rgba(100,227,200,.065)}.hero-tags{margin-top:30px;display:flex;flex-wrap:wrap;gap:9px}.hero-tags span{border:1px solid rgba(159,200,234,.18);color:#a9bbcf;border-radius:999px;padding:5px 12px;font-size:11px;font-weight:700}
+.hero-visual{display:flex;justify-content:center;align-items:center;min-height:525px;position:relative}.orb{position:absolute;border-radius:50%;filter:blur(1px);opacity:.65}.orb-one{width:390px;height:390px;background:radial-gradient(circle,#1a5364 0,rgba(23,69,102,.55) 38%,transparent 72%);top:5%;right:3%}.orb-two{width:365px;height:365px;border:1px solid rgba(91,200,187,.16);transform:rotate(-15deg)}.profile-card{position:relative;isolation:isolate;width:min(100%,370px);min-height:455px;padding:31px;border:1px solid rgba(154,213,231,.23);border-radius:27px;background:linear-gradient(145deg,rgba(21,42,60,.92),rgba(12,23,39,.97));box-shadow:0 30px 90px rgba(0,0,0,.28);overflow:hidden;transform:rotate(2deg)}.profile-card>*{position:relative;z-index:2}.profile-card-glow{position:absolute;z-index:0;inset:auto -100px -240px;background:radial-gradient(circle,rgba(58,188,163,.2),transparent 65%);height:400px}.profile-image-wrap{width:150px;height:150px;overflow:hidden;margin:5px auto 20px;border:4px solid rgba(112,232,211,.55);border-radius:50%;position:relative;background:linear-gradient(130deg,#1b697a,#303f79);display:grid;place-items:center}.profile-image-wrap img{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}.profile-fallback{font:800 54px Outfit,sans-serif;color:#d5fff5}.profile-card-label{text-align:center;font-size:10px;letter-spacing:.18em;color:var(--accent);font-weight:800;margin:0 0 1px}.profile-card h2{text-align:center;font:700 27px Outfit,sans-serif;letter-spacing:-.5px;margin:4px 0 0}.profile-card>p:nth-of-type(2){text-align:center;color:#b7c9db;font-size:13px;margin:2px 0 20px}.profile-divider{height:1px;background:rgba(168,202,232,.18);margin-bottom:18px}.profile-info{display:flex;justify-content:space-between;gap:15px;margin:0 0 12px;font-size:11px}.profile-info span{color:#879ab0;font-weight:800;font-size:10px;letter-spacing:.08em}.profile-info strong{text-align:right;color:#dae8f1;font-weight:600}.float-label{position:absolute;z-index:3;display:flex;align-items:center;gap:10px;background:#14263a;border:1px solid rgba(142,190,216,.22);box-shadow:0 14px 30px rgba(0,0,0,.15);color:#d4e9f3;padding:10px 16px;border-radius:11px;font-size:13px;font-weight:800}.float-top{left:-10px;top:56px;transform:rotate(-8deg)}.float-bottom{right:-15px;bottom:40px;transform:rotate(4deg)}.tiny-dot{width:6px;height:6px}
+.section{padding-top:88px;padding-bottom:30px}.section-heading{margin-bottom:35px;max-width:770px}.section-kicker{margin:0 0 10px;color:var(--accent);font-size:11px;font-weight:800;letter-spacing:.22em}.section-heading h2{font:700 clamp(35px,3.8vw,49px)/1.15 Outfit,sans-serif;letter-spacing:-1.8px;margin:0 0 14px}.section-heading>p:last-child{font-size:16px;color:var(--muted);margin:0}.glass-card,.mini-card,.project-card,.area-card,.skill-group,.timeline-content{background:linear-gradient(150deg,rgba(19,33,53,.95),rgba(13,24,40,.95));border:1px solid var(--line);border-radius:var(--radius)}.about-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:21px}.about-main{padding:34px 38px}.about-main h3{font:600 24px Outfit,sans-serif;margin:0 0 21px}.about-main p{font-size:15px;color:#aebfd1;line-height:1.9}.about-main p:last-child{margin-bottom:0}.about-main strong{color:#e3effa}.about-side{display:grid;gap:13px}.mini-card{display:flex;gap:17px;padding:20px;align-items:center}.mini-icon{width:43px;height:43px;border-radius:12px;background:rgba(100,227,200,.09);display:grid;place-items:center;color:var(--accent);font:700 14px Outfit,sans-serif;flex:none}.mini-card h3{font:600 17px Outfit,sans-serif;margin:0 0 4px}.mini-card p{color:var(--muted);font-size:13px;line-height:1.55;margin:0}
+.projects-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px}.project-card{overflow:hidden;transition:transform .22s,border-color .22s;display:flex;flex-direction:column}.project-card:hover{transform:translateY(-5px);border-color:rgba(100,227,200,.38)}.project-art{height:170px;overflow:hidden;position:relative;display:grid;place-items:center;border-bottom:1px solid rgba(169,200,239,.1)}.project-art svg{width:90%;max-width:410px;height:170px;position:relative;z-index:2}.art-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(155,204,237,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(155,204,237,.07) 1px,transparent 1px);background-size:32px 32px;mask-image:linear-gradient(to bottom,black,transparent)}.art-industrial{background:linear-gradient(140deg,#102d40,#0c192c)}.art-signal{background:linear-gradient(140deg,#152841,#17203b)}.art-chip{background:linear-gradient(140deg,#151c34,#122b38)}.art-data{background:linear-gradient(140deg,#102838,#112943)}.art-corner{position:absolute;z-index:3;top:15px;left:19px;color:#bbd4e6;font:700 11px Outfit,sans-serif;letter-spacing:.12em}.project-body{display:flex;flex-direction:column;align-items:flex-start;padding:26px 28px 30px;flex:1}.project-number{color:var(--accent);font-weight:800;font-size:10px;letter-spacing:.15em}.project-body h3{font:600 23px/1.25 Outfit,sans-serif;letter-spacing:-.3px;margin:10px 0 13px}.project-body p{color:#adbed0;font-size:14px;line-height:1.8;margin:0 0 20px}.stack{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto}.stack span,.skill-tags span{border-radius:7px;background:rgba(153,178,209,.075);border:1px solid rgba(158,187,225,.12);font-size:11px;color:#bfd0e0;font-weight:700;padding:6px 10px}.text-link{display:inline-flex;gap:10px;margin-top:20px;color:var(--accent);font-size:13px;font-weight:800}.text-link:hover{text-decoration:underline}.section-action{display:flex;justify-content:center;margin-top:30px}
+.areas-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:19px}.area-card{padding:28px;min-height:310px;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}.area-card:hover{border-color:rgba(100,227,200,.37);transform:translateY(-4px)}.area-symbol{width:57px;height:57px;background:rgba(100,227,200,.085);border:1px solid rgba(100,227,200,.18);color:var(--accent);border-radius:14px;display:grid;place-items:center;font:600 28px Outfit,sans-serif}.area-card h3{font:600 22px/1.25 Outfit,sans-serif;margin:24px 0 11px}.area-card p{color:var(--muted);font-size:14px;line-height:1.75;margin:0 0 23px}.area-footer{margin-top:auto;color:#81d9cb;font-size:10px;letter-spacing:.12em;font-weight:800}.skills-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.skill-group{padding:26px}.skill-group-top{display:flex;align-items:center;gap:12px;margin-bottom:22px}.skill-group h3{font:600 19px Outfit,sans-serif;margin:0}.skill-icon{display:grid;place-items:center;min-width:40px;height:40px;background:#1a3543;color:var(--accent);border-radius:10px;font-size:18px;font-weight:700}.skill-tags{display:flex;flex-wrap:wrap;gap:9px}.skill-tags span{font-size:12px;padding:8px 11px}
+.timeline{display:flex;flex-direction:column;gap:14px;position:relative}.timeline:before{content:"";position:absolute;top:20px;bottom:25px;left:13px;width:2px;background:linear-gradient(var(--accent),rgba(100,227,200,.05))}.timeline-item{display:grid;grid-template-columns:28px 177px minmax(0,1fr);align-items:start;gap:22px}.timeline-marker{width:15px;height:15px;margin-top:22px;margin-left:7px;background:var(--accent);border:4px solid var(--bg);border-radius:50%;z-index:1;box-shadow:0 0 0 1px rgba(100,227,200,.45)}.timeline-date{padding-top:20px;color:#8facc3;font-size:10px;font-weight:800;letter-spacing:.12em}.timeline-content{padding:24px 30px}.timeline-kind{font-size:10px;color:var(--accent);font-weight:800;letter-spacing:.14em}.timeline-content h3{font:600 21px Outfit,sans-serif;margin:7px 0 10px}.timeline-content p{font-size:14px;color:var(--muted);margin:0;line-height:1.8}.contact-section{padding-top:100px;padding-bottom:100px}.contact-panel{padding:60px;background:radial-gradient(ellipse at top right,rgba(71,195,170,.13),transparent 60%),linear-gradient(145deg,#102238,#0e192b);border-radius:27px;border:1px solid rgba(111,196,190,.28);text-align:center}.contact-panel h2{font:700 clamp(34px,4.2vw,55px)/1.15 Outfit,sans-serif;letter-spacing:-1.5px;max-width:720px;margin:13px auto 20px}.contact-panel>p:not(.section-kicker){color:#afc5d7;max-width:610px;margin:0 auto 26px}.contact-buttons{justify-content:center}.footer{border-top:1px solid rgba(165,198,231,.13);padding:28px 0}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;color:#889bb0;font-size:12px}.footer-inner strong{font:800 21px Outfit,sans-serif;color:#eaf5ff;margin-right:10px}.footer-inner a:hover{color:var(--accent)}
+.reveal{opacity:0;transform:translateY(17px);transition:opacity .6s ease,transform .6s ease}.reveal.visible{opacity:1;transform:translateY(0)}
+@media(max-width:1030px){.nav-links{gap:15px}.nav-links a{font-size:12px}.hero{gap:20px}.hero h1{font-size:clamp(45px,4.8vw,64px)}.hero-visual{transform:scale(.9)}.brand-name{display:none}}
+@media(max-width:800px){.navigation{height:70px}.brand-name{display:inline}.menu-toggle{display:flex;width:44px;height:42px;align-items:center;justify-content:center;flex-direction:column;gap:5px;background:transparent;border:1px solid rgba(160,198,232,.25);border-radius:9px;cursor:pointer;z-index:30}.menu-toggle span{width:19px;height:2px;border-radius:1px;background:#e2eef8;transition:transform .2s,opacity .2s}.menu-toggle[aria-expanded=true] span:nth-child(1){transform:translateY(7px) rotate(45deg)}.menu-toggle[aria-expanded=true] span:nth-child(2){opacity:0}.menu-toggle[aria-expanded=true] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}.nav-links{display:none;position:absolute;top:70px;left:0;right:0;padding:18px 28px 27px;background:#0c1625;border-bottom:1px solid rgba(177,200,231,.2);flex-direction:column;align-items:stretch;gap:5px}.nav-links.open{display:flex}.nav-links a{font-size:15px;padding:11px 12px}.nav-links .nav-contact{margin-top:8px;text-align:center}.hero{grid-template-columns:1fr;gap:35px;padding-top:80px;padding-bottom:50px;min-height:0}.hero-copy{max-width:660px}.hero-visual{min-height:485px;transform:none}.about-grid{grid-template-columns:1fr}.areas-grid,.skills-grid{grid-template-columns:1fr 1fr}.area-card{min-height:285px}.timeline-item{grid-template-columns:28px 125px minmax(0,1fr);gap:12px}}
+@media(max-width:590px){.container{padding-inline:20px}.hero{padding-top:64px}.hero h1{font-size:46px;letter-spacing:-1.8px}.eyebrow{font-size:10px;letter-spacing:.1em}.hero-intro{font-size:15px}.hero-sub{font-size:14px}.hero-buttons .btn{flex:1;white-space:nowrap;padding:11px 14px;font-size:12px}.hero-visual{min-height:448px}.profile-card{max-width:315px;min-height:417px;padding:25px}.profile-image-wrap{width:130px;height:130px}.float-top{left:-3px;top:38px}.float-bottom{right:-2px;bottom:20px}.section{padding-top:70px;padding-bottom:20px}.section-heading h2{font-size:35px;letter-spacing:-1px}.section-heading>p:last-child{font-size:14px}.about-main{padding:25px}.about-main p{font-size:14px}.projects-grid,.areas-grid,.skills-grid{grid-template-columns:1fr}.project-art{height:156px}.project-art svg{height:156px}.project-body{padding:24px}.project-body h3{font-size:22px}.area-card{min-height:0}.timeline:before{left:6px}.timeline-item{grid-template-columns:14px minmax(0,1fr);column-gap:16px;row-gap:0}.timeline-marker{margin-left:0;margin-top:9px}.timeline-date{padding-top:5px;font-size:10px}.timeline-content{grid-column:2;padding:22px;margin-top:4px}.contact-section{padding-top:70px;padding-bottom:70px}.contact-panel{padding:42px 22px}.contact-panel h2{font-size:35px}.contact-buttons{flex-direction:column}.footer-inner{flex-wrap:wrap;justify-content:center;text-align:center;gap:8px 22px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+
+</style>
+  
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="container navigation" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Samuel Eleotério, voltar ao início">
+        <span class="brand-mark">SE<span class="brand-dot">.</span></span>
+        <span class="brand-name">Samuel Eleotério</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#areas">Áreas</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#experiencias">Experiências</a>
+        <a class="nav-contact" href="#contato">Contato <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero container" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="pulse-dot"></span> Engenharia de Computação · UNIFEI</p>
+        <h1 id="hero-title">Transformando <span class="gradient-text">dados e ideias</span> em soluções reais.</h1>
+        <p class="hero-intro">Olá, sou <strong>Samuel Eleotério</strong>. Atuo e desenvolvo projetos em Inteligência Artificial, Machine Learning, análise de dados e desenvolvimento de software.</p>
+        <p class="hero-sub">Interesso-me por aplicações de tecnologia que conectam pesquisa, engenharia e problemas do mundo real.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projetos">Explorar projetos <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-secondary" href="https://github.com/SamuelEBDS" target="_blank" rel="noopener noreferrer">Meu GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-tags" aria-label="Especialidades">
+          <span>Python</span><span>Machine Learning</span><span>Processamento de Sinais</span><span>Software</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orb orb-one" aria-hidden="true"></div>
+        <div class="orb orb-two" aria-hidden="true"></div>
+        <div class="profile-card">
+          <div class="profile-image-wrap">
+            <span class="profile-fallback" aria-hidden="true">SE</span>
+            <img src="https://github.com/SamuelEBDS.png?size=500" alt="Foto de perfil do GitHub de Samuel Eleotério" loading="eager" onerror="this.style.display='none'">
+          </div>
+          <p class="profile-card-label">PESQUISA · DESENVOLVIMENTO</p>
+          <h2>Samuel Eleotério</h2>
+          <p>Engenharia de Computação</p>
+          <div class="profile-divider"></div>
+          <div class="profile-info"><span>FORMAÇÃO</span><strong>UNIFEI · ADS</strong></div>
+          <div class="profile-info"><span>FOCO</span><strong>IA & Engenharia de Software</strong></div>
+          <div class="profile-card-glow" aria-hidden="true"></div>
+        </div>
+        <div class="float-label float-top">&lt;/&gt; + IA</div>
+        <div class="float-label float-bottom"><span class="tiny-dot"></span> Construindo soluções</div>
+      </div>
+    </section>
+
+    <section class="section container" id="sobre" aria-labelledby="about-title">
+      <div class="section-heading reveal"><p class="section-kicker">01 / SOBRE</p><h2 id="about-title">Quem sou eu<span class="punctuation">.</span></h2><p>Uma trajetória que conecta desenvolvimento, pesquisa e experiência prática.</p></div>
+      <div class="about-grid">
+        <div class="about-main glass-card reveal">
+          <h3>Curiosidade técnica com aplicação prática</h3>
+          <p>Sou estudante de <strong>Engenharia de Computação na Universidade Federal de Itajubá (UNIFEI)</strong> e formado em <strong>Análise e Desenvolvimento de Sistemas</strong>.</p>
+          <p>Minha trajetória reúne experiência em tecnologia, desenvolvimento web, automação e projetos acadêmicos. Tenho estudado o uso de aprendizado de máquina para identificar padrões, investigar anomalias e apoiar a tomada de decisões.</p>
+          <p>Busco oportunidades para contribuir em projetos de desenvolvimento de software, IA e análise de dados, ampliando minha experiência técnica e científica.</p>
+        </div>
+        <div class="about-side reveal">
+          <div class="mini-card"><div class="mini-icon">01</div><div><h3>Formação multidisciplinar</h3><p>Engenharia de Computação e Análise e Desenvolvimento de Sistemas.</p></div></div>
+          <div class="mini-card"><div class="mini-icon">02</div><div><h3>Pesquisa aplicada</h3><p>Machine Learning, dados industriais e processamento digital de sinais.</p></div></div>
+          <div class="mini-card"><div class="mini-icon">03</div><div><h3>Experiência prática</h3><p>Desenvolvimento, sistemas institucionais e soluções tecnológicas.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projetos" aria-labelledby="projects-title">
+      <div class="section-heading reveal"><p class="section-kicker">02 / PORTFÓLIO</p><h2 id="projects-title">Projetos em destaque<span class="punctuation">.</span></h2><p>Alguns trabalhos que representam minhas áreas de interesse e atuação.</p></div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-art art-industrial" aria-hidden="true"><div class="art-grid"></div><svg viewBox="0 0 400 170" fill="none"><path d="M0 115L30 100L65 112L95 70L130 85L164 44L196 73L230 33L267 58L307 30L344 69L400 20" stroke="#66e6cc" stroke-width="3" stroke-linecap="round"/><path d="M0 138L45 135L88 143L140 99L188 118L240 91L290 112L330 90L400 101" stroke="#5ca1ff" stroke-width="2" opacity=".65"/><circle cx="230" cy="33" r="6" fill="#66e6cc"/><circle cx="307" cy="30" r="6" fill="#66e6cc"/></svg><span class="art-corner">ML / ICS</span></div>
+          <div class="project-body"><span class="project-number">PROJETO 01 · TCC</span><h3>Detecção de anomalias em sistemas industriais</h3><p>Pesquisa com o HAI Dataset para avaliar técnicas de Machine Learning na identificação de comportamentos anômalos e possíveis ataques em sistemas de controle industrial.</p><div class="stack"><span>Python</span><span>Random Forest</span><span>Scikit-learn</span><span>HAI Dataset</span></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art art-signal" aria-hidden="true"><div class="art-grid"></div><svg viewBox="0 0 400 170" fill="none"><path d="M0 85 C15 85 17 48 32 48 S50 130 66 130 S86 28 100 28 S122 141 137 141 S156 54 174 54 S192 109 209 109 S226 47 244 47 S264 118 280 118 S300 66 317 66 S339 94 355 94 S377 69 400 69" stroke="#8db6ff" stroke-width="3"/><path d="M0 100L400 100" stroke="#b1c7df" stroke-width="1" stroke-dasharray="5 5" opacity=".35"/></svg><span class="art-corner">SINAIS / IA</span></div>
+          <div class="project-body"><span class="project-number">PROJETO 02 · MIDEA × UNIFEI</span><h3>Análise de sinais e áudio com IA</h3><p>Projeto acadêmico aplicado à análise de ruídos de máquinas de lavar, utilizando extração de características acústicas, espectrogramas e técnicas de análise de dados.</p><div class="stack"><span>Python</span><span>FFT</span><span>MFCC</span><span>Processamento de sinais</span></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art art-chip" aria-hidden="true"><div class="art-grid"></div><svg viewBox="0 0 400 170" fill="none"><rect x="152" y="22" width="96" height="126" rx="12" stroke="#8da6ff" stroke-width="3"/><rect x="169" y="40" width="62" height="90" rx="5" fill="#8da6ff" opacity=".12" stroke="#8da6ff"/><path d="M152 48H120M152 76H103M152 104H115M152 132H120M248 48H280M248 76H297M248 104H285M248 132H280" stroke="#66e6cc" stroke-width="5" stroke-linecap="round"/><text x="200" y="91" fill="#d7e3ff" text-anchor="middle" font-size="19" font-weight="700" font-family="sans-serif">CPU</text></svg><span class="art-corner">HARDWARE</span></div>
+          <div class="project-body"><span class="project-number">PROJETO 03 · CI EXPERT</span><h3>Processador multiciclo</h3><p>Projeto de arquitetura e implementação de um processador multiciclo, explorando lógica digital, descrição de hardware e verificação funcional.</p><div class="stack"><span>Verilog</span><span>SystemVerilog</span><span>RTL</span><span>Simulação</span></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art art-data" aria-hidden="true"><div class="art-grid"></div><svg viewBox="0 0 400 170" fill="none"><rect x="75" y="28" width="250" height="112" rx="9" stroke="#87a7dc" stroke-width="2"/><path d="M105 118V86M150 118V62M195 118V94M240 118V42M285 118V75" stroke="#66e6cc" stroke-width="21" stroke-linecap="round"/><path d="M95 137H305" stroke="#87a7dc" opacity=".6"/></svg><span class="art-corner">DADOS</span></div>
+          <div class="project-body"><span class="project-number">PROJETO 04 · GITHUB</span><h3>Visualização e análise de dados</h3><p>Estudos e notebooks com exploração, tratamento e visualização de dados, incluindo gráficos e recursos de análise em Python.</p><div class="stack"><span>Python</span><span>Jupyter</span><span>Visualização</span></div><a class="text-link" href="https://github.com/SamuelEBDS/Gr-ficos-Visualiza-o-e-Dashboard" target="_blank" rel="noopener noreferrer">Ver repositório <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      <div class="section-action reveal"><a class="btn btn-secondary" href="https://github.com/SamuelEBDS?tab=repositories" target="_blank" rel="noopener noreferrer">Ver outros projetos no GitHub <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="section container" id="areas" aria-labelledby="areas-title">
+      <div class="section-heading reveal"><p class="section-kicker">03 / ÁREAS DE ATUAÇÃO</p><h2 id="areas-title">Como posso contribuir<span class="punctuation">.</span></h2><p>Interesses técnicos que orientam minha evolução profissional.</p></div>
+      <div class="areas-grid">
+        <article class="area-card reveal"><span class="area-symbol" aria-hidden="true">◈</span><h3>Inteligência Artificial & Dados</h3><p>Modelagem, análise exploratória, classificação, detecção de anomalias e avaliação de modelos de Machine Learning.</p><span class="area-footer">PYTHON · ML · ANÁLISE</span></article>
+        <article class="area-card reveal"><span class="area-symbol" aria-hidden="true">⌘</span><h3>Desenvolvimento de Software</h3><p>Implementação de aplicações, automação de processos, desenvolvimento web, bancos de dados e integração entre sistemas.</p><span class="area-footer">WEB · SQL · AUTOMAÇÃO</span></article>
+        <article class="area-card reveal"><span class="area-symbol" aria-hidden="true">⌁</span><h3>Engenharia de Computação</h3><p>Processamento digital de sinais, arquitetura de computadores, sistemas embarcados e verificação de hardware.</p><span class="area-footer">DSP · SISTEMAS · RTL</span></article>
+      </div>
+    </section>
+
+    <section class="section container" id="habilidades" aria-labelledby="skills-title">
+      <div class="section-heading reveal"><p class="section-kicker">04 / HABILIDADES</p><h2 id="skills-title">Tecnologias e ferramentas<span class="punctuation">.</span></h2><p>Ferramentas utilizadas em estudos, projetos e experiências práticas.</p></div>
+      <div class="skills-grid">
+        <div class="skill-group reveal"><div class="skill-group-top"><span class="skill-icon">{ }</span><h3>Programação & Web</h3></div><div class="skill-tags"><span>Python</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>PHP</span><span>C</span><span>SQL</span></div></div>
+        <div class="skill-group reveal"><div class="skill-group-top"><span class="skill-icon">◉</span><h3>IA & Análise de Dados</h3></div><div class="skill-tags"><span>Scikit-learn</span><span>NumPy</span><span>SciPy</span><span>Matplotlib</span><span>Machine Learning</span><span>Processamento de sinais</span></div></div>
+        <div class="skill-group reveal"><div class="skill-group-top"><span class="skill-icon">◇</span><h3>Sistemas & Ferramentas</h3></div><div class="skill-tags"><span>Git</span><span>GitHub</span><span>Linux</span><span>Jupyter</span><span>Verilog</span><span>SystemVerilog</span><span>MATLAB/Octave</span></div></div>
+      </div>
+    </section>
+
+    <section class="section container" id="experiencias" aria-labelledby="experience-title">
+      <div class="section-heading reveal"><p class="section-kicker">05 / EXPERIÊNCIAS</p><h2 id="experience-title">Minha trajetória<span class="punctuation">.</span></h2><p>Experiências profissionais e desenvolvimento acadêmico.</p></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">ATUAL · UNIFEI</div><div class="timeline-content"><div class="timeline-kind">EXPERIÊNCIA PROFISSIONAL</div><h3>Estágio na Ouvidoria</h3><p>Atuação com páginas institucionais, conteúdos digitais, comunicação e iniciativas relacionadas a transparência, dados abertos e privacidade.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">FORMAÇÃO TECNOLÓGICA</div><div class="timeline-content"><div class="timeline-kind">CAPACITAÇÃO</div><h3>Programa CI Expert</h3><p>Formação em projeto e verificação de circuitos digitais, com estudos em arquitetura de computadores, Verilog e SystemVerilog.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">EXPERIÊNCIAS ANTERIORES</div><div class="timeline-content"><div class="timeline-kind">TECNOLOGIA E DESENVOLVIMENTO</div><h3>Desenvolvimento web e suporte de TI</h3><p>Experiências na Webtagger, Prefeitura de Itajubá e em setores da UNIFEI, envolvendo sistemas, desenvolvimento web e suporte tecnológico.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">FORMAÇÃO ACADÊMICA</div><div class="timeline-content"><div class="timeline-kind">EDUCAÇÃO</div><h3>Engenharia de Computação & ADS</h3><p>Bacharelado em Engenharia de Computação em andamento na UNIFEI e graduação concluída em Análise e Desenvolvimento de Sistemas.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contato" aria-labelledby="contact-title">
+      <div class="contact-panel reveal">
+        <p class="section-kicker">06 / CONTATO</p>
+        <h2 id="contact-title">Vamos construir algo <span class="gradient-text">interessante?</span></h2>
+        <p>Estou aberto a conexões e oportunidades em desenvolvimento de software, Inteligência Artificial, dados e pesquisa aplicada.</p>
+        <div class="contact-buttons">
+          <a class="btn btn-primary" href="https://www.linkedin.com/in/samuel-eleoterio-44a760174/" target="_blank" rel="noopener noreferrer">Conversar no LinkedIn <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-secondary" href="https://github.com/SamuelEBDS" target="_blank" rel="noopener noreferrer">Acessar meu GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><span><strong>SE<span class="brand-dot">.</span></strong> Samuel Eleotério</span><span>© <span id="year">2026</span> · Portfólio pessoal</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+<script>
+// Navegação para dispositivos móveis.
+const menuButton = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+function closeMenu() {
+  menuButton.setAttribute('aria-expanded', 'false');
+  menuButton.setAttribute('aria-label', 'Abrir menu');
+  navLinks.classList.remove('open');
+}
+
+menuButton.addEventListener('click', () => {
+  const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+  menuButton.setAttribute('aria-expanded', String(!isOpen));
+  menuButton.setAttribute('aria-label', isOpen ? 'Abrir menu' : 'Fechar menu');
+  navLinks.classList.toggle('open', !isOpen);
+});
+navLinks.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
+document.addEventListener('keydown', (event) => { if (event.key === 'Escape') closeMenu(); });
+
+// Animações sutis ao rolar. Para acessibilidade, ficam estáticas quando o usuário prefere movimento reduzido.
+const elementsToReveal = document.querySelectorAll('.reveal');
+if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px 30px 0px' });
+  elementsToReveal.forEach((element) => revealObserver.observe(element));
+} else {
+  elementsToReveal.forEach((element) => element.classList.add('visible'));
+}
+
+document.getElementById('year').textContent = String(new Date().getFullYear());
+
+</script>
+</body>
+</html>
