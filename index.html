@@ -65,6 +65,10 @@
 .project-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,13,25,.35),transparent 48%);pointer-events:none}
 .project-photo .art-corner{color:#fff;text-shadow:0 1px 9px rgba(0,0,0,.75)}
 @media(max-width:590px){.project-photo{height:195px}}
+
+/* Capa do TCC no cartão do projeto 01, sem recortar o slide. */
+.project-cover-tcc{background:#c3e896}
+.project-cover-tcc img{object-fit:contain;object-position:center}
 </style>
   
 </head>
@@ -150,7 +154,7 @@
       <div class="section-heading reveal"><p class="section-kicker">02 / PORTFÓLIO</p><h2 id="projects-title">Projetos em destaque<span class="punctuation">.</span></h2><p>Alguns trabalhos que representam minhas áreas de interesse e atuação.</p></div>
       <div class="projects-grid">
         <article class="project-card reveal">
-          <div class="project-art art-industrial" aria-hidden="true"><div class="art-grid"></div><svg viewBox="0 0 400 170" fill="none"><path d="M0 115L30 100L65 112L95 70L130 85L164 44L196 73L230 33L267 58L307 30L344 69L400 20" stroke="#66e6cc" stroke-width="3" stroke-linecap="round"/><path d="M0 138L45 135L88 143L140 99L188 118L240 91L290 112L330 90L400 101" stroke="#5ca1ff" stroke-width="2" opacity=".65"/><circle cx="230" cy="33" r="6" fill="#66e6cc"/><circle cx="307" cy="30" r="6" fill="#66e6cc"/></svg><span class="art-corner">ML / ICS</span></div>
+          <div class="project-art project-photo project-cover-tcc"><img src="assets/tcc-capa-projeto-01.webp" alt="Capa do Workshop de TCC sobre detecção de anomalias em sistemas de controle industrial" width="420" height="236" loading="lazy" decoding="async"></div>
           <div class="project-body"><span class="project-number">PROJETO 01 · TCC</span><h3>Detecção de anomalias em sistemas industriais</h3><p>Pesquisa com o HAI Dataset para avaliar técnicas de Machine Learning na identificação de comportamentos anômalos e possíveis ataques em sistemas de controle industrial.</p><div class="stack"><span>Python</span><span>Random Forest</span><span>Scikit-learn</span><span>HAI Dataset</span></div></div>
         </article>
         <article class="project-card reveal">
