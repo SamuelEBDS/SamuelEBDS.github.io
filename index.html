@@ -93,6 +93,15 @@
 .project-unigou img{object-fit:contain;background:#162337}
 .project-photo a:focus-visible,.project-unigou a:focus-visible{outline:3px solid #65e1c9;outline-offset:-3px}
 @media(max-width:590px){.project-photo,.project-cover-tcc,.project-unigou{height:200px}.project-diagram{height:215px}}
+
+/* Cartões 01 e 03: mostrar as imagens originais completas, sem cortes ou deslocamentos. */
+.project-cover-tcc{background:#c1e69c;overflow:hidden}
+.project-cover-tcc a{display:flex;width:100%;height:100%;align-items:center;justify-content:center}
+.project-cover-tcc img{display:block;width:100%;height:100%;object-fit:contain;object-position:center center}
+.project-cover-tcc::after{display:none}
+.project-diagram{background:#fff;overflow:hidden}
+.project-diagram a{display:flex;width:100%;height:100%;align-items:center;justify-content:center}
+.project-diagram img{display:block;width:100%;height:100%;object-fit:contain;object-position:center center}
 </style>
   
 </head>
@@ -178,7 +187,7 @@
       <div class="section-heading reveal"><p class="section-kicker">02 / PORTFÓLIO</p><h2 id="projects-title">Projetos em destaque<span class="punctuation">.</span></h2><p>Alguns trabalhos que representam minhas áreas de interesse e atuação.</p></div>
       <div class="projects-grid">
         <article class="project-card reveal">
-          <div class="project-art project-photo project-cover-tcc"><a href="assets/tcc-capa-projeto-01.webp" target="_blank" rel="noopener noreferrer" aria-label="Ampliar capa da apresentação do TCC"><img src="assets/tcc-capa-projeto-01.webp" alt="Capa do Workshop de TCC sobre detecção de anomalias em sistemas de controle industrial" width="1101" height="621" loading="lazy" decoding="async"></a></div>
+          <div class="project-art project-photo project-cover-tcc"><a href="assets/tcc-capa-projeto-01.webp" target="_blank" rel="noopener noreferrer" aria-label="Ampliar capa da apresentação do TCC"><img src="assets/tcc-capa-projeto-01.webp" alt="Capa do Workshop de TCC sobre detecção de anomalias em sistemas de controle industrial" width="1280" height="720" loading="lazy" decoding="async"></a></div>
           <div class="project-body"><span class="project-number">PROJETO 01 · TCC</span><h3>Detecção de anomalias em sistemas industriais</h3><p>Pesquisa com o HAI Dataset para avaliar técnicas de Machine Learning na identificação de comportamentos anômalos e possíveis ataques em sistemas de controle industrial.</p><div class="stack"><span>Python</span><span>Random Forest</span><span>Scikit-learn</span><span>HAI Dataset</span></div></div>
         </article>
         <article class="project-card reveal">
@@ -186,7 +195,7 @@
           <div class="project-body"><span class="project-number">PROJETO 02 · MIDEA × UNIFEI</span><h3>Análise de sinais e áudio com IA</h3><p>Projeto acadêmico aplicado à análise de ruídos de máquinas de lavar, utilizando extração de características acústicas, espectrogramas e técnicas de análise de dados.</p><div class="stack"><span>Python</span><span>FFT</span><span>MFCC</span><span>Processamento de sinais</span></div></div>
         </article>
         <article class="project-card reveal">
-          <div class="project-art project-diagram"><a href="assets/ci-expert-diagrama.webp" target="_blank" rel="noopener noreferrer" aria-label="Ampliar diagrama estrutural do processador multiciclo"><img src="assets/ci-expert-diagrama.webp" alt="Diagrama estrutural do datapath do processador multiciclo do projeto CI Expert, mostrando ALU, registradores, memória, multiplexadores e controle" width="590" height="310" loading="lazy" decoding="async"></a></div>
+          <div class="project-art project-diagram"><a href="assets/ci-expert-diagrama.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar diagrama estrutural do processador multiciclo"><img src="assets/ci-expert-diagrama.png" alt="Diagrama estrutural do datapath do processador multiciclo do projeto CI Expert, mostrando ALU, registradores, memória, multiplexadores e controle" width="595" height="306" loading="lazy" decoding="async"></a></div>
           <div class="project-body"><span class="project-number">PROJETO 03 · CI EXPERT</span><h3>Processador multiciclo</h3><p>Projeto de arquitetura e implementação de um processador multiciclo, explorando lógica digital, descrição de hardware e verificação funcional.</p><div class="stack"><span>Verilog</span><span>SystemVerilog</span><span>RTL</span><span>Simulação</span></div></div>
         </article>
         <article class="project-card reveal">
